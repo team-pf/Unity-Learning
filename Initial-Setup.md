@@ -47,11 +47,11 @@ After generation copy the new SSH key to the clipboard :
 clip < ~/.ssh/id_rsa.pub
 ```
 then go to your profile settings to add the key
-https://help.github.com/assets/images/help/settings/userbar-account-settings.png
-https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png
-https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png
-https://help.github.com/assets/images/help/settings/ssh-key-paste.png
-https://help.github.com/assets/images/help/settings/ssh-add-key.png
+![personal settings](https://help.github.com/assets/images/help/settings/userbar-account-settings.png)
+![ssh keys](https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png)
+![add ssh key](https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png)
+![key paste](https://help.github.com/assets/images/help/settings/ssh-key-paste.png)
+![add key](https://help.github.com/assets/images/help/settings/ssh-add-key.png)
 
 ## This repository
 
