@@ -62,3 +62,8 @@ then go to your profile settings to add the key
 
 ![Visual Studio Clone](Team-Explorer-Clone-This-Repository.png)
 
+Make sure image files are tracked using LFS (Large File System for binaries and other large files that are not handled correctly by vanilla Git) :
+```
+git lfs track *.png
+```
+
