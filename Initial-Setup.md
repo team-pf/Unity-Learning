@@ -8,7 +8,7 @@ Choose pre-made Options Unity/Gamedev/Desktop C++.
 
 * go to https://git-scm.com/download/win to install Git for Windows.
 
-== Posh Git
+## Posh Git
 
 Better integration of *Git* into *Power Shell*
 
@@ -30,5 +30,5 @@ Add-PoshGitToProfile
 ```
 See Posh-Git main page and additional instructions
 
-== This repository
+## This repository
 
