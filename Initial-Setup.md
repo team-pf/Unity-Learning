@@ -60,3 +60,5 @@ then go to your profile settings to add the key
 
 ## This repository
 
+![Visual Studio Clone](Team-Explorer-Clone-This-Repository.png)
+
