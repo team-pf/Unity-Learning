@@ -14,3 +14,11 @@ cd C:\Users\gamedev\Github\Unity2
 mkdir 1_first_steps
 ```
 
+Make a new Unity Project in Unity Client :
+
+![New Unity Project](new-unity-project.png)
+
+Point the new project directory to the created directory above (Unity2\1_first_steps) and name it My Block Model :
+
+![My Block Model Project](my-block-model-new-project.png)
+
