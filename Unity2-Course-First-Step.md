@@ -8,3 +8,9 @@ Create new Github repository Unity2-Course that will contain all the courses pro
 
 ![Course2 Clone Visual Studio](Team-Explorer-Clone-Course2-Repository.png)
 
+Go to the cloned directory in Posh-Git and create a directory for the first steps projects :
+```
+cd C:\Users\gamedev\Github\Unity2
+mkdir 1_first_steps
+```
+
