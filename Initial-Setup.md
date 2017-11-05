@@ -30,5 +30,28 @@ Add-PoshGitToProfile
 ```
 See Posh-Git main page and additional instructions
 
+## Git for Windows
+
+We'll want to connect Github to Git for Windows.
+
+First verify if you already have a SSH key on your local Git for Windows. Open the "Git-Bash" tool and 
+```
+ls -al ~/.ssh
+```
+If it returns empty, you have to generate a key :
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+After generation copy the new SSH key to the clipboard :
+```
+clip < ~/.ssh/id_rsa.pub
+```
+then go to your profile settings to add the key
+https://help.github.com/assets/images/help/settings/userbar-account-settings.png
+https://help.github.com/assets/images/help/settings/settings-sidebar-ssh-keys.png
+https://help.github.com/assets/images/help/settings/ssh-add-ssh-key.png
+https://help.github.com/assets/images/help/settings/ssh-key-paste.png
+https://help.github.com/assets/images/help/settings/ssh-add-key.png
+
 ## This repository
 
