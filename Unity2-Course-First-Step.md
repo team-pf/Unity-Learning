@@ -64,6 +64,27 @@ Challenge : Create a street scene with at least two different types of prefabs t
 
 ![Cars and Hydrants](cars-and-hydrants.png)
 
+## First CSharp script
 
+Make sure our street scene is opened. Then in the Assets panel, right click and selecte "Create->C# Script" from the context menu. Call it "Introducer" immediately as you create it (because the client will fill the script with some default text that needs to match the name you've given it). Usually we want to name scripts with names that indicate somebody doing an action (a "doer"/"introducer"). Just as a meaningful convention.
 
+Once it is created, drag and drop the script icon onto a car in the scene. If you've made an error and dragged it twice onto the same car, you can reselect the car, and then choose one of the Introducer script in the Inspector Panel on the right and choose the "remove component" (on the cog icon of the panel).
+
+If you click once on the script icon in the asset panel it shows the preview of the script in the Inspector panel. If you want to open it to edit it, double click on the script icon so that it opens Visual Studio 2017 (or whatever editor is in the Preferences->External Tools selection). So go ahead and open it.
+
+Once in Visual Studio, modify the Introducer::Start() function. By adding a line saying print Hello VR Jammer :
+```
+	// Use this for initialization
+	void Start () {
+        print("Hello VR Jammer");
+	}
+```
+
+Then save the file (ctrl+s). Go back to the Unity Client Window. Check in the script preview that the line with print has been added. Then click on the Play button on top. This will launch the "game mode", as if we were playing the game.
+
+While the game is playing, check the console panel on the bottom (there's a "console" tab next the project tab). It should display one time or more "Hello VR Jammer". 
+
+If we see more than one "Hello VR Jammer" (and we can clear the console window before starting the game to make sure those are not old messages), that means we have multiple instances of the Introducer script. In order to find where those instances are, we right-click on the script, select "Find references in scene", this will put a filter on the Hierarchy panel that tells to list only the game objects that have a reference to the script. Select the game objects that shouldn't have the instance of the script (in case you misclicked earlier) and use the cog "remove component" to remove the unneeded component/script.
+
+Go back to the console, clear it. Hit the play button again on top, and repeat the above operations until you only see one "Hello VR Jammer" line in your console panel.
 
