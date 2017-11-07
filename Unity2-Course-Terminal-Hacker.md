@@ -34,5 +34,11 @@ Now use the same Terminal.WriteLn() to write a blurb of text that looks like a g
 
 ![War Game menu](joshua-game-menu.png)
 
+## WebGL deployment
 
+Click on the Terminal Hacker.unity asset in the assets panel.
+Then File->Build Settings. It opens the build settings window. Choose WebGL from the list then build (you may have to download the WebGL extension from the link there)
 
+Here's the finished build from WebGL :
+
+https://team-pf.github.io/Unity2-Course/2_terminal_hacker/WebGL/index.html
